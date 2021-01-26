@@ -31,8 +31,7 @@ public class DashBoardToDoList {
 	 By removeBtn = By.xpath("//button[@class=\"btn btn-default\"]");
 	 
 	 //Locator for List Items
-	  @SuppressWarnings("unchecked")
-	List<By> allElements = (List<By>) By.xpath("(//ul[@class=\"list-group\"])");
+	  List<By> allElements = (List<By>) By.xpath("(//ul[@class=\"list-group\"])");
 	 
 	 // Method to input list name 
 	 public String generateListname(int length) {		 
